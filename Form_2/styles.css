@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
+    url(sorf1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+/*.form .circle {
+    width: 150px;
+    background-color: rgb(221, 79, 103);
+    border-radius: 50%;
+    text-align: center;
+    margin: 75px;
+    padding: 50px;
+    color: white;
+}*/
+
+.form {
+    margin: auto;
+    width: 300px;
+    background: rgba(240, 248, 255, 0.11);
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(61, 60, 60);
+    box-shadow: 7px 13px 40px #000;
+    padding-bottom: 10px;
+}
+
+.form div {
+    height: 290px;
+}
+
+div.foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0px 0px;
+}
+
+div.foto strong{
+    color: #ffffff;
+    margin-left: 110px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.controls {
+    width: 90%;
+    margin-left: 15px;
+    background: rgba(240, 248, 255, 0.137);
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+
+}
+
+input::placeholder{
+    color: #000;
+    font-weight: bolder;
+}
+
+.form p {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+    color: #000;
+}
+
+.form a {
+    color: black;
+    text-decoration: none;
+    margin-left: 125px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.form a:hover {
+    color:rgb(221, 79, 103);
+    text-decoration: underline;
+}
+
+.form .btn {
+    width: 90%;
+    margin-left: 15%;
+    background-color: rgb(221, 79, 103);
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    color: white;
+    margin: 16px 15px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form .btn:hover {
+    background-color: rgba(9, 9, 236, 0.39);
+    cursor: pointer;
+}
